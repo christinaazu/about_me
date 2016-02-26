@@ -1,8 +1,50 @@
 body {
-  background: white;
-  font-family: futura;
+  background-color: white;
+  text-align: center;
 }
-img {
-  width: 50px;
-  /*border: 1px solid black;*/
+h1 {
+  background-color: #acd0b4;
+  padding:20px;
+  color: white;
+  font-family: Arial;
+  letter-spacing: .2em;
 }
+h2 {
+  color: black;
+  font-family: Arial;
+  font-style: italic;
+}
+h3{
+  color: black;
+  font-family: Arial;
+}
+li {
+  list-style-type: circle;
+}
+nav {
+  font-weight: bold;
+  font-family: Arial;
+  margin-bottom: 10px;
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+a:link {
+    color: #acd0b4;
+}
+
+a:visited {
+    color: #acd0b4;
+}
+
+a:hover {
+    color: #317873;
+}
+
+a:active {
+    color: #acd0b4;
+}
+img.pic {
+    width: 5%;
+}
+
