@@ -2,12 +2,16 @@ body {
   background-color: white;
   text-align: center;
 }
+p {
+  padding: 0px 40px;
+}
 h1 {
   background-color: #acd0b4;
   padding:20px;
   color: white;
   font-family: Arial;
   letter-spacing: .2em;
+  text-align: center;
 }
 h2 {
   color: black;
@@ -15,11 +19,30 @@ h2 {
   font-style: italic;
 }
 h3{
+  color: white;
+  background: #d7828c;
+  font-family: Arial;
+  font-style: none;
+  letter-spacing: .1em;
+}
+h4 {
   color: black;
   font-family: Arial;
+  font-style: bold;
+  letter-spacing: .1em;
+  padding: 10px;
+
 }
 li {
-  list-style-type: circle;
+  color: black;
+  display: inline;
+  font-family: Arial;
+  list-style-type: none;
+  padding: 10px;
+}
+ul {
+  text-align: center;
+  padding: 0px;
 }
 nav {
   font-weight: bold;
@@ -30,11 +53,11 @@ nav {
   text-align: center;
 }
 a:link {
-    color: #acd0b4;
+    color: #d7828c;
 }
 
 a:visited {
-    color: #acd0b4;
+    color: #d7828c;
 }
 
 a:hover {
@@ -47,4 +70,17 @@ a:active {
 img.pic {
     width: 5%;
 }
-
+.homehead h1{
+  font-size: 50px;
+}
+.footerlogo img {
+  height: 20px;
+}
+.portfoliomain {
+  float: center;
+  height: 30%px;
+}
+.midheader h3
+{
+  background: #acd0b4;
+}
